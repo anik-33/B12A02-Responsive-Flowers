@@ -58,8 +58,52 @@
     border: none;
 }
 
+/* flower lover */
+.trusted-badge {
+    width: 286px;
+}
 
+.flower-lover {
+    margin-top: 15rem;
+}
 
+.lover-right {
+    margin-top: 3rem;
+}
+
+.flower-title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.list-description {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.flower-list {
+    padding: 5px 40px;
+}
+
+.lover-left {
+    position: relative;
+}
+
+.lover-right {
+    position: relative;
+}
+
+.flower-store {
+
+}
+
+.badge {
+    width: 286px;
+    margin-top: -45rem;
+    margin-left: 21rem;
+}
 
 /* media query */
 @media (max-width: 768px) {
@@ -96,6 +140,10 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 15px 15px;
+    }
+
+    .card {
+        width: 100%;
     }
 
 
