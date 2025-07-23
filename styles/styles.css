@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Common */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Serif", serif;
+    background-color: #F6F9FF;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* Header and banner style */
+
+.nav-bar {
+    margin-top: 2rem;
+}
+
+.banner {
+    margin-top: 10rem;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.banner-description {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+
+.banner-span {
+    color: #E95A08;
+}
+
+/* our plants section */
+.our-plants {
+    margin-top: 120px;
+}
+
+.cards-container {
+    margin-top: 40px;
+}
+
+.btn {
+    background-color: #E95A08;
+    width: 100%;
+    /* padding: 15px 25px; */
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+
+
+
+/* media query */
+@media (max-width: 768px) {
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 15px 15px;
+    }
+
+    .banner {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .banner-left {
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+    .home,
+    .shop,
+    .about-us {
+        display: none;
+
+    }
+
+    .our-plants {
+        margin: 0px 10px;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px 15px;
+    }
+
+
+
+}
