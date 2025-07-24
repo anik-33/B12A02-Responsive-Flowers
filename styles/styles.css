@@ -7,7 +7,7 @@
     padding: 0;
     margin: 0;
     font-family: "Noto Serif", serif;
-    background-color: #F6F9FF;
+    /* background-color: #F6F9FF; */
 }
 
 .container {
@@ -132,7 +132,7 @@
 
 .deals-item img {
     border-radius: 18px;
-        padding: 8px 0px;
+    padding: 8px 0px;
 }
 
 .deals-content1 {
@@ -180,21 +180,44 @@
     text-decoration: underline;
 
 }
+
 /* Join the colorful Bunch */
-.colorful-bunch{
-   
+
+.join-now {
     background-image: url(../assets/news-letter-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     height: 533px;
-     width: 100%;
+    background-size: cover;
+    height: 533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-.bunch{
 
+.join h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
 }
 
+.input-grp {
+    display: flex;
+    margin-top: 1rem;
+}
 
+.input-grp input {
+    padding: 2px 230px;
 
+    background-color: white;
+    border: none;
+}
+
+.input-grp button {
+    background-color: #E95A08;
+    color: white;
+    padding: 8px 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
 
 
 
@@ -282,6 +305,7 @@
     /* leatest deal */
     .leatest-deal {
         margin: 10px 10px;
+        height: 93vh;
     }
 
     .deals-container {
@@ -302,5 +326,17 @@
         margin-top: -150px;
     }
 
+    /* join now */
+    .join-now {
+        height: 275px;
+    }
+
+    .join h1 {
+        font-size: 20px;
+    }
+
+    .input-grp input {
+        padding: 0;
+    }
 
 }
