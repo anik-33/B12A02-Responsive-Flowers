@@ -95,15 +95,114 @@
     position: relative;
 }
 
-.flower-store {
-
-}
+.flower-store {}
 
 .badge {
     width: 286px;
     margin-top: -45rem;
     margin-left: 21rem;
 }
+
+/* Latest  Deals  */
+
+
+
+.leatest-deal {
+    margin-top: 5rem;
+    height: 700px;
+}
+
+.deal-top {
+    text-align: center;
+}
+
+.deals-container {
+    margin-top: 2rem;
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+.deals-item {
+    position: relative;
+
+}
+
+.deals-item img {
+    border-radius: 18px;
+        padding: 8px 0px;
+}
+
+.deals-content1 {
+    text-align: center;
+    margin-top: -339px;
+}
+
+.deals-content2 {
+    margin-top: 157px;
+    text-align: center;
+}
+
+.deals-content3 {
+    text-align: center;
+    margin-top: -250px;
+}
+
+
+.deals-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.deals-title-big {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.deals-a {
+    font-weight: 700;
+    font-size: 16px;
+    background: transparent;
+    color: white;
+    text-decoration: underline;
+
+}
+
+.deals-a-big {
+    font-weight: 700;
+    font-size: 28px;
+    background: transparent;
+    color: white;
+    text-decoration: underline;
+
+}
+/* Join the colorful Bunch */
+.colorful-bunch{
+   
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     height: 533px;
+     width: 100%;
+}
+.bunch{
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* media query */
 @media (max-width: 768px) {
@@ -114,8 +213,9 @@
         flex-direction: row;
         margin: 15px 15px;
     }
-    .nav-items{
-            margin-top: 25px;
+
+    .nav-items {
+        margin-top: 25px;
     }
 
     .banner {
@@ -123,9 +223,15 @@
         display: flex;
         flex-direction: column-reverse;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 35px;
     }
+
+    .banner-description {
+        margin-top: 1rem;
+    }
+
     .banner-left {
         margin-top: 2rem;
         margin-left: 1rem;
@@ -139,7 +245,7 @@
     }
 
     .our-plants {
-        margin: 0px 10px;
+        margin: 50px 10px;
     }
 
     .cards-container {
@@ -151,23 +257,50 @@
     .card {
         width: 100%;
     }
-    .badge{
+
+    .badge {
         display: none;
     }
-    .flower-lover {
-    margin-top: 4rem;
-    margin: 25px 10px;
-}
-.lover-right{
-        margin-left: 12px;
-}
-.flower-title {
-    font-size: 26px;
-}
-.list-description{
-        font-size: 15px;
-}
 
+    .flower-lover {
+        margin-top: 4rem;
+        margin: 100px 10px;
+    }
+
+    .lover-right {
+        margin-left: 12px;
+    }
+
+    .flower-title {
+        font-size: 26px;
+    }
+
+    .list-description {
+        font-size: 15px;
+    }
+
+    /* leatest deal */
+    .leatest-deal {
+        margin: 10px 10px;
+    }
+
+    .deals-container {
+        gap: 95px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .deals-title-big {
+        font-size: 20px;
+    }
+
+    .deals-a-big {
+        font-size: 20px;
+    }
+
+    .deals-content3 {
+        margin-top: -150px;
+    }
 
 
 }
