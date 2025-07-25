@@ -199,7 +199,9 @@
     align-items: center;
     text-align: center;
 }
-
+.join{
+    background-color: transparent;
+}
 .join h1 {
     font-weight: bold;
     font-size: 50px;
