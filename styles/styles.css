@@ -7,12 +7,13 @@
     padding: 0;
     margin: 0;
     font-family: "Noto Serif", serif;
-    /* background-color: #F6F9FF; */
+    background-color: #F6F9FF;
 }
 
 .container {
     max-width: 1140px;
     margin: auto;
+    
 }
 
 /* Header and banner style */
@@ -102,6 +103,11 @@
     width: 286px;
     margin-top: -45rem;
     margin-left: 21rem;
+    animation: spin 6s linear infinite;
+    background-color: transparent;
+}
+@keyframes spin {
+    100%{transform: rotate(360deg);}
 }
 
 /* Latest  Deals  */
@@ -198,6 +204,7 @@
     font-weight: bold;
     font-size: 50px;
     color: white;
+    background-color: transparent;
 }
 
 .input-grp {
